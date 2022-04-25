@@ -1,0 +1,29 @@
+.App-header {
+    margin: 0;
+    padding: 1rem;
+    text-align: right;
+    background-color: #ffffff;
+    display: inline-block;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    width: 100%;
+    
+  }
+  
+  
+  .App-list li{
+    overflow: hidden;
+    display: inline;
+    color: #1b2621;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .header-logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+  }
+  .App-list li:hover{
+    background-color: rgb(180, 230, 225);
+    color: #3d0b31;
+  }
